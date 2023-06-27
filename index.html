@@ -1,72 +1,86 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./landing-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
     <title>Nature love</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="nav bar">
-            <div class="header-logo">
-                <img src="photos/south-tyrol-8023224_960_720.jpg" alt="header-logo">
-
-            
-        </nav>
-            <div class="links">
-                <a href="#">about</a>
-                <a href="#">contact</a>
-                <a href="#">sign up</a>
-            </div>
-            <div class="main">
-                <div class="main page">
-                    <h1>This is a nature loving page </h1>
-                    <p>Nature is one of the best things that beautify the world,when it's cared and protected as well.</p>
-                    <button type="button">sign up</button>
-
-                </div>
-                <div class="main image">
-                    <img src="photos/forest-7774205_960_720.jpg" alt="main image">
-
-                </div>
+    <nav class="navigation-bar">
+        <div >
+            <img class="nav-logo" src="./photos/free-photo-of-el-pozo-de-las-almas.jpeg" alt="logo image"/>
+        </div>
+        <div class="nav-links">
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+            <a href="#">Sign up</a>
+        </div>
+    </nav>
+    <main>
+        <div class="main-page">
+            <div class="main-sub">
                 <div class="info">
-                  s  <h2>These are some nature pictures to admire</h2>
-                    <div class="info 1">
-                        <div>
-                            <img src="photos/giraffes-8047856_960_720.jpg" alt="giraffe enjoying nature">
-                            <p>Animals enjoying nature</p>
-                        </div>
-                        
-                        <div>
-                            <img src="photos/mt--sabinyo-.webp" alt="mt sabyinyo">
-                            <p>The beauty of volcanoes</p>
-                        </div>
-                        <div>
-                            <img src="photos/lake-kivu-rwanda.avif" alt="lake kivu">
-                            <p>The beauty of lake Kivu</p>
-                        </div>
-                        <div>
-                            <img src="photos/istockphoto-496355715-612x612.jpg" alt="landscapes ">
-                            <p>Beautiful landscapes</p>
-                        </div>
-                        <div>
-                            <img src="photos/FPf3Ws-WUAIpJCF.jpg" alt="island">
-                            <p>Landscapes surrounded by water</p>
-                        </div>
-                    </div>
+                    <h1 class="main-text">This is a page where we admire the beauty of nature</h1>
+                    <p class="main-text">Growth and development are often observed in nature, while the vast majority of man-made objects are static and deteriorating.</p>
+                    <button class="btn" type="button">Sign Up</button>
                 </div>
-                <div class="quote">
-                    <p>"A walk in nature walks the soul back home."</p>
-                       <b>-Mary Davis</b>
-                </div>
-                <div class="sign-up">
-                    <button type="button">Sign up</button>
+                <div class="main-img">
+                    <img src="./photos/free-photo-of-landscape-hill-mountain-agriculture.jpeg" alt="main image"/>
                 </div>
             </div>
-            <footer>
-                <p>Copyright © The odin project 2023</p>
-            </footer>
-    </div>
-    
+        </div>
+        <div class="some">
+            <div class="words">
+                <h2>Look some of the beautiful pictures of nature</h2>
+            </div>
+            <div class="pic-all">
+                <div class="card-container">
+                    <div class="pic">
+                        <img class="images" src="./photos/flower.webp" alt="flower">
+                    </div>
+                    <p>nature nurturing</p>
+                </div>
+                <div class="card-container">
+                    <div class="pic">
+                        <img class="images" src="./photos/green.jpeg" alt="Greenland">
+                    </div>
+                    <p>The beauty of earth is green</p>
+                </div>
+                <div class="card-container">
+                    <div class="pic">
+                        <img class="images" src="./photos/horse.jpeg" alt="Horse">
+                    </div>
+                    <p>An animal enjoying nature</p>
+                </div>
+                <div class="card-container">
+                    <div class="pic">
+                        <img class="images" src="./photos/landscape.jpeg" alt="Landscapes">
+                    </div>
+                    <p>Land surrounded by water</p>
+                </div>
+            </div>
+        </div>
+        <div class="quote">
+            <p>"Rest is not idleness, and to lie sometimes on the grass under trees on a summer's day, listening to the murmur of the water, or watching the clouds float across the sky, is by no means a waste of time."</p>
+            <b>--Sir John Lubbock</b>
+        </div>
+        <div class="make">
+            <div class="sign-up">
+                <div class="sign-items">
+                <h3>Always get news to your inbox</h3>
+                <p>Sign up for news in this beautiful page</p>
+                </div>
+                <div class="sign-button">
+                    <button type="button" class="sign-button">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>Copyright @ The Odin Project 2023</footer>
 </body>
 </html>
